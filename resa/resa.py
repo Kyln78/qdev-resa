@@ -13,6 +13,7 @@ class Room(Enum):
       return "Medium"
     if self == Room.SMALL:
       return "Small"
+
     return "Refused"
 
 def bookMeetingRoom(participants):
